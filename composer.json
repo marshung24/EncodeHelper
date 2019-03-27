@@ -1,7 +1,7 @@
 {
-    "name": "marshung/helper",
-    "description": "PHP Helpers liberaries",
-    "homepage": "https://github.com/marshung24/io",
+    "name": "marsapp/encodehelper",
+    "description": "EncodeHelper library, providing encoding, decoding and other functions.",
+    "homepage": "https://github.com/marshung24/EncodeHelper",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,9 +11,12 @@
         }
     ],
     "autoload": {
-        "psr-4": { "marshung\\helper\\": "src", "marshung\\helperTest\\": "test" }
+        "psr-4": { "marsapp\\helper\\encode\\": "src", "marsapp\\helper\\test\\encode\\": "test"}
     },
     "minimum-stability": "stable",
+    "require-dev": {
+        "marsapp/devtools": "*"
+    },
     "require": {
     }
 }

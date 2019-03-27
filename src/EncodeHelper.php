@@ -1,5 +1,5 @@
 <?php
-namespace marshung\helper;
+namespace marsapp\helper\encode;
 
 /**
  * Encode Helper
@@ -7,8 +7,8 @@ namespace marshung\helper;
  * @author Mars Hung <tfaredxj@gmail.com>
  * @example <br>
  *          1. Snapshot encode(zip) & decode(unzip) <br>
- *          - encode: $snapshot = \app\helpers\EncodeHelper::snapshotEncode($data); <br>
- *          - decode: $data = \app\helpers\EncodeHelper::snapshotDecode($snapshot); <br>
+ *          - encode: $snapshot = \marsapp\helper\encode\EncodeHelper::snapshotEncode($data); <br>
+ *          - decode: $data = \marsapp\helper\encode\EncodeHelper::snapshotDecode($snapshot); <br>
  *         
  */
 class EncodeHelper
